@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"test": "node --env-file=.env example.mjs"
+	},
+	"dependencies": {
+		"elevenlabs": "^1.54.0"
+	}
+}
