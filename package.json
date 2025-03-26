@@ -1,8 +1,13 @@
 {
 	"scripts": {
+		"start": "ts-node src/index.ts",
 		"test": "node --env-file=.env example.mjs"
 	},
 	"dependencies": {
+		"dotenv": "^16.4.7",
 		"elevenlabs": "^1.54.0"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^8.2.3"
 	}
 }
